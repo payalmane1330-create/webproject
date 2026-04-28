@@ -1,16 +1,14 @@
 {
   "name": "assign10",
   "version": "1.0.0",
-  "description": "",
+  "description": "Advanced Deployment Features",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "NODE_ENV=development node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Payal Mane",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1"
   }
